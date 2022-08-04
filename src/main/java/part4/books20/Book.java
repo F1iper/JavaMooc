@@ -1,4 +1,4 @@
-package org.exercise.part4.books20;
+package part4.books20;
 
 public class Book {
     
