@@ -30,13 +30,12 @@ public class Main {
         String input = scanner.nextLine();
         
         if (input.equals("everything")) {
-            for (Book book : books) {
-                System.out.println(book);
-            }
+            books.stream()
+                    .forEach(System.out::println);
+            
         } else if (input.equals("name")) {
-            for (Book book : books) {
-                System.out.println(book.getTitle());
-            }
+            books.stream()
+                    .forEach(System.out::println);
         }
     }
 }
