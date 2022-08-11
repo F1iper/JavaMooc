@@ -23,7 +23,7 @@ public class Timer {
     
     @Override
     public String toString() {
-        return seconds + "";
+        return seconds + ":" + miliseconds;
     }
     
     public Timer() {
